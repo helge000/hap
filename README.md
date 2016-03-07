@@ -48,7 +48,7 @@ Video codecs compress/decompress video data — they translate the files on your
 The Hap codec comes in three different variations, each corresponding to a different form of S3TC texture compression: 
 **Hap** (DXT1), **Hap Alpha** (DXT5) and **Hap Q** (Scaled YCoCg DXT5).
 
-Since images encoded with S3TC are still extremely large, Hap uses an additional lightweight lossless compression pass using [Snappy](http://code.google.com/p/snappy/) to reduce the overall data-rate to a manageable size.
+Since images encoded with S3TC are still extremely large, Hap uses an additional lightweight lossless compression pass using [Snappy](https://github.com/google/snappy) to reduce the overall data-rate to a manageable size.
 
 Apps With Support For Hap
 ----
